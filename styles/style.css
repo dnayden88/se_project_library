@@ -1,5 +1,4 @@
 .page {
-  /* Add page class properties here */
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
@@ -20,7 +19,6 @@
 }
 
 .nav {
-  /* Add flex properties here */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,7 +30,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   margin-top: 8px;
   display: flex;
   column-gap: 20px;
@@ -267,7 +264,6 @@
   top: -68px;
 }
 
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff_cards {
   max-width: 760px;
   max-height: 720px;
@@ -286,7 +282,7 @@
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   height: 420px;
-  max-width: 360px;
+  width: 360px;
 }
 
 .card__content {
@@ -314,8 +310,6 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  /* Auto margins applied on a flex item automatically extend specified margin to occupy the extra space in the flex container */
-  /* In our case, this pushes the element down to the bottom */
   margin-top: auto;
 }
 
@@ -341,12 +335,9 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-
-  /* Add styles */
 }
 
 .step {
-  /* Add styles */
   flex-basis: 220px;
 }
 
