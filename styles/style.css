@@ -484,16 +484,11 @@
 }
 
 .footer__social-icon {
-  max-height: 16px;
-  max-width: 16px;
+  height: 16px;
+  width: 16px;
   margin-right: 10px;
 }
 
 .footer__copyright {
   color: white;
-  font-size: 16px;
-  line-height: 20px;
-  position: absolute;
-  left: 80px;
-  margin: 108px 0px 0px;
 }
