@@ -239,7 +239,7 @@
 .staff {
   padding-top: 100px;
   padding-bottom: 140px;
-  background-image: url("/Users/donkanaydenova/Desktop/se_project_library/images/staff_picks_background.jpg");
+  background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
 }
 
@@ -249,7 +249,6 @@
   line-height: 52px;
   margin: 0 0 24px;
   color: #ffff;
-  position: relative;
   top: -68px;
 }
 
@@ -260,15 +259,12 @@
   font-weight: 400;
   margin: 24px 0 0;
   color: #ffff;
-  position: relative;
   top: -68px;
 }
 
 .staff__cards {
   max-width: 760px;
-  max-height: 720px;
-  margin-top: 68px;
-  margin: auto;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -412,7 +408,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #1f1f1f;
   padding: 60px 102px 60px 80px;
   height: 224px;
   position: relative;
