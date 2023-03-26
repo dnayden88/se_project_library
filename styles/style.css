@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: "Helvetica Neue", Arial;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -16,6 +16,7 @@
   padding-right: 80px;
   position: relative;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .nav {
@@ -30,7 +31,7 @@
 }
 
 .nav__links {
-  margin-top: 8px;
+  margin: 8px 0px 0px;
   display: flex;
   column-gap: 20px;
   list-style-type: none;
@@ -49,7 +50,7 @@
 
 .header__title {
   max-width: 544px;
-  margin-top: 150px;
+  margin: 150px 0px 32px;
   font-size: 66px;
   line-height: 76px;
   font-weight: 500;
@@ -57,13 +58,13 @@
 
 .header__description {
   max-width: 532px;
-  margin-top: 32px;
+  margin: 32px 0px 0px;
   font-size: 20px;
   line-height: 30px;
 }
 
 .header__image {
-  z-index: 1;
+  z-index: -1;
   position: absolute;
   max-width: 636px;
   top: 135px;
@@ -241,6 +242,8 @@
   padding-bottom: 140px;
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .staff__title {
@@ -384,7 +387,6 @@
   max-width: 660px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   row-gap: 32px;
   z-index: 1;
 }
@@ -399,7 +401,6 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
-  align-self: flex-start;
   z-index: 0;
   position: absolute;
   top: -121px;
@@ -410,15 +411,13 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   padding: 60px 102px 60px 80px;
-  height: 224px;
+  min-height: 224px;
   position: relative;
 }
 
 .footer__columns {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  column-gap: 100px;
 }
 
 .footer__column_content_hours {
@@ -432,10 +431,10 @@
   line-height: 20px;
   display: flex;
   flex-direction: column;
+  margin-left: 100px;
 }
 
 .footer__logo {
-  color: white;
   width: 116px;
   height: 21px;
 }
@@ -463,6 +462,8 @@
 .footer__column-heading {
   color: white;
   margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__column-link {
@@ -487,4 +488,5 @@
 
 .footer__copyright {
   color: white;
+  margin: 108px 0px 60px;
 }
