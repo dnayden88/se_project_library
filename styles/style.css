@@ -58,7 +58,7 @@
 
 .header__description {
   max-width: 532px;
-  margin: 0px 0px;
+  margin: 0;
   font-size: 20px;
   line-height: 30px;
 }
