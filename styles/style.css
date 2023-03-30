@@ -22,7 +22,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
 }
 
 .logo {
@@ -58,7 +58,7 @@
 
 .header__description {
   max-width: 532px;
-  margin: 32px 0px 0px;
+  margin: 0px 0px;
   font-size: 20px;
   line-height: 30px;
 }
@@ -488,5 +488,5 @@
 
 .footer__copyright {
   color: white;
-  margin: 108px 0px 60px;
+  margin: 108px 0px;
 }
